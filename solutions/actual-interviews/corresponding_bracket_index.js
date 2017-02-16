@@ -30,7 +30,7 @@ function corresponding_bracket_index(source_code, caret_index) {
       let last_active_opening_bracket = active_opening_brackets.pop();
 
       // Throw an error if closing brackets are not properly nested within opening ones
-      // Or if a closing bracket does not have a corresponding closing one.
+      // Or if a closing bracket does not have a corresponding opening one.
       if (!last_active_opening_bracket||
           character === ']' && last_active_opening_bracket.type != '[' ||
           character === ')' && last_active_opening_bracket.type != '(' ||
