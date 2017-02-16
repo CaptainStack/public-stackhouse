@@ -19,8 +19,7 @@ function print_combinations () {
       // Check that no two digits are the same.
       // Only four digits means a Set would be too resource intensive
       if (!(m1 === m2 || m1 === d1 || m1 === d2 ||
-            m2 === d1 || m2 === d2 ||
-            d1 === d2)) {
+            m2 === d1 || m2 === d2 || d1 === d2)) {
         console.log(m1 + "" + m2 + "" + d1 + "" + d2);
       }
     }
