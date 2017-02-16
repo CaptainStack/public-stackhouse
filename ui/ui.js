@@ -4,4 +4,8 @@ $(() => {
     $('code').text(fn.toString());
     Prism.highlightAll();
   });
+
+  $('button').click(() => {
+    mocha.run();
+  });
 });

@@ -5,8 +5,16 @@
     <link href="images/handshake.ico" type="image/gif" rel="shortcut icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="lib/prism/prism.js"></script>
+    <script src="http://chaijs.com/chai.js"></script>
+    <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
 
+    <!-- Stylesheets -->
     <link href="lib/prism/prism.css" rel="stylesheet" />
+    <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+    <link href="ui/style.css" rel="stylesheet" />
+
+    <!-- Test Scripts -->
+    <script src="test/test.js"></script>
 
     <!-- Data Structures -->
     <script src="data-structures/Array_Extensions.js"></script>
@@ -31,6 +39,8 @@
       <option>corresponding_bracket_index</option>
       <option>check_permutation</option>
     </select>
+    <button>Run Tests</button>
     <pre><code class="language-javascript"></code></pre>
+    <div id="mocha"></div>
   </body>
 </html>
