@@ -1,0 +1,10 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font: 100% $font-stack;
+  color: $primary-color;
+}
