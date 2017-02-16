@@ -12,7 +12,7 @@ let unclosed_bracket      = '[][(){}';
 let no_braces             = 'abcdefg'; 
 //                           0123456
 
-function corresponding_bracket_index(source_code, caret_index) {
+const corresponding_bracket_index = (source_code, caret_index) => {
   // Throw error if caret_index is not pointing to a bracket
   if ('(){}[]'.indexOf(source_code[caret_index]) === -1) {
     throw new Error('Invalid caret index. Caret must point to a bracket.');

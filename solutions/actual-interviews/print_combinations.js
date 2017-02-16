@@ -2,7 +2,7 @@
 // is a four digit number that represents a month and day e.g. 0123 corresponds to January 23rd
 // a valid combination cannot have two repeating digits. Assume all months have 31 days.
 
-function print_combinations () {
+const print_combinations = () => {
   // Loop through months and days
   for (let i = 1; i <= 12; i++) {
     // November will never be valid because of repeating digits
