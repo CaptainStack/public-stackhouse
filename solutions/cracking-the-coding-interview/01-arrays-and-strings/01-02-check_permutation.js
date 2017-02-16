@@ -1,4 +1,4 @@
-const check_permutation = (word1, word2) => {
+function check_permutation(word1, word2) {
   let character_map = new Map();
   for (character of word1) {
     let quantity = character_map.get(character);
