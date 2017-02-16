@@ -1,14 +1,3 @@
-let valid_source_code     = '[[abc]][({Andre Stackhouse})]0';
-//                           012345678901234567890123456789
-let improper_nesting      = '12([)]444';
-//                           012345678
-let wrong_closing_bracket = '[a](3){#$}[)';
-//                           012345678901
-let unclosed_bracket      = '[][(){}';
-//                           0123456
-let no_braces             = 'abcdefg'; 
-//                           0123456
-
 function corresponding_bracket_index(source_code, caret_index) {
   // Write a function that takes a string that represents source code and an int that represents a caret index in the source code.
   // If the caret index is pointed at a bracket, curly brace, or parenthesis, return the index of the corresponding brace.
