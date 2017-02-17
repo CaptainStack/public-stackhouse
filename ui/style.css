@@ -25,28 +25,30 @@ p, h2, h3 {
 #mocha {
   margin: 5px;
 }
+#mocha h1 {
+  font-size: 12pt;
+}
 a {
   text-decoration: none;
   color: black;
 }
-
 a:hover {
   color: #A2E0C1;
 }
-
 #resume {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-
 #resume img {
   width: 100%;
 }
-
 #bio {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   font-size: 24px;
+}
+pre {
+  font-size: 10pt;
 }
