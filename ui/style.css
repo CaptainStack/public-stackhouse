@@ -1,5 +1,5 @@
 body {
-  padding: 0 15px 0 15px;
+  padding: 0 35px 0 35px;
 }
 h1 {
   font-family: "Courier New", monospace;
@@ -15,15 +15,18 @@ p, h2, h3 {
 }
 #code-container {
   float: left;
-  width: 63%;
+  width: 60%;
 }
 #test-output {
   margin-left: 10px;
   float: left;
-  width: 36%;
+  width: 38%;
+}
+#test-output h3 {
+  margin-left: 10pt;
 }
 #mocha {
-  margin: 5px;
+  margin: 0px;
 }
 #mocha h1 {
   font-size: 12pt;
@@ -50,5 +53,5 @@ a:hover {
   font-size: 24px;
 }
 pre {
-  font-size: 10pt;
+  font-size: 11pt;
 }
