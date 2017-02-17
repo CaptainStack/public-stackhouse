@@ -36,8 +36,17 @@ a:hover {
 
 #resume {
   width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #resume img {
   width: 100%;
+}
+
+#bio {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
 }
