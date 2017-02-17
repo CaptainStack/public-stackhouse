@@ -1,5 +1,27 @@
 body {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px 0 15px;
+}
+h1 {
+  font-family: "Courier New", monospace;
+}
+p, h2, h3 {
+  font-family: sans-serif;
+}
+.accent {
+  color: #A2E0C1;
+}
+.keyword {
+  color: #C586C0;
+}
+#code-container {
+  float: left;
+  width: 63%;
+}
+#test-output {
+  margin-left: 10px;
+  float: left;
+  width: 36%;
+}
+#mocha {
+  margin: 5px;
 }

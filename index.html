@@ -11,17 +11,27 @@
   </head>
   
   <body>
-    <h1>Public interview question whiteboard</h1>
+    <h1>let Andre = <span class='keyword'>new</span> Stack&lt;<span class='accent'>House</span>&gt;();</h1>
+    <h2>Public interview prep site</h2>
     <p>Select a problem from dropdown to view solution. Click button to run all tests. Hit F12 to run code live in browser console (requires a browser with good ES2015 support).</p>
-    <select>
-      <option></option>
-      <option>print_combinations</option>
-      <option>corresponding_bracket_index</option>
-      <option>check_permutation</option>
-    </select>
-    <button>Run Tests</button>
-    <pre class="line-numbers"><code class="language-javascript"></code></pre>
-    <div id="mocha"></div>
+    <div>
+      <select>
+        <option disabled selected>Select an interview question</option>
+        <option>print_combinations</option>
+        <option>corresponding_bracket_index</option>
+        <option>check_permutation</option>
+      </select>
+      <button>Run Tests</button>
+    </div>
+    <div id="code-container">
+      <h3>Code container</h3>
+      <pre class="line-numbers"><code class="language-javascript"></code></pre>
+    </div>
+    <div id="test-output">
+      <h3>Test Output</h3>
+      <div id="mocha"></div>
+    </div>
+
 
     <!-- Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
