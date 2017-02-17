@@ -1,4 +1,6 @@
 function check_permutation(word1, word2) {
+  // Cracking the Coding Interview problem 1.2
+  // Given two strings, write a method to decide if one is a permutation of the other
   let character_map = new Map();
   for (character of word1) {
     let quantity = character_map.get(character);
