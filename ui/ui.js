@@ -1,11 +1,11 @@
-$(() => {
-  $('select').change(() => {
+document.addEventListener( 'DOMContentLoaded', function () {
+  document.querySelector('select').onchange = () => {
     let fn = window[$("select option:selected").text()];
-    $('code').text(fn.toString());
+    document.querySelector('code').innerText = fn.toString();
     Prism.highlightAll();
-  });
+  };
 
-  $('button').click(() => {
+  document.querySelector('button').onclick = () => {
     mocha.run();
-  });
-});
+  };
+}, false );
