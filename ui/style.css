@@ -25,3 +25,19 @@ p, h2, h3 {
 #mocha {
   margin: 5px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #A2E0C1;
+}
+
+#resume {
+  width: 80%;
+}
+
+#resume img {
+  width: 100%;
+}
