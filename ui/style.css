@@ -42,11 +42,13 @@ p, h2, h3 {
 #code-container {
   width: 60%;
   min-width: 908px;
+  flex-grow: 1;
 }
 #test-output {
   margin-left: 10px;
   min-width: 575px;
   width: 38%;
+  flex-grow: 1;
 }
 #test-output h3 {
   margin-left: 10pt;
