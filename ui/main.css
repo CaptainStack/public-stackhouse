@@ -1,5 +1,6 @@
 body {
   padding: 0 35px 0 35px;
+  overflow-y: scroll;
 }
 p, h2, h3 {
   font-family: sans-serif;
@@ -15,7 +16,7 @@ p, h2, h3 {
   flex-wrap: wrap;
 }
 #code-container {
-  min-width: 918px;
+  min-width: 900px;
   width: 60%;
   flex-grow: 1;
 }
