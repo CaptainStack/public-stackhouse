@@ -1,0 +1,22 @@
+#header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Courier New", monospace;
+  font-size: 2em;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}

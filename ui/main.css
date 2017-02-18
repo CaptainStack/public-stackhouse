@@ -1,0 +1,41 @@
+body {
+  padding: 0 35px 0 35px;
+}
+
+p, h2, h3 {
+  font-family: sans-serif;
+}
+.accent {
+  color: #4EC9B0;
+}
+.keyword {
+  color: #C586C0;
+}
+#main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+#code-container {
+  min-width: 918px;
+  width: 60%;
+  flex-grow: 1;
+}
+#test-output {
+  margin-left: 10px;
+  min-width: 585px;
+  width: 38%;
+  flex-grow: 1;
+}
+#test-output h3 {
+  margin-left: 10pt;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #4EC9B0;
+}
+pre {
+  font-size: 11pt;
+}
