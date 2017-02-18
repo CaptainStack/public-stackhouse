@@ -1,6 +1,6 @@
 mocha.setup('bdd');
 
-describe('corresponding_bracket_index', function() {
+describe('corresponding_bracket_index_test', function() {
   let valid_source_code     = '[[abc]][({Andre Stackhouse})]0';
   //                           012345678901234567890123456789
   let improper_nesting      = '12([)]444';
