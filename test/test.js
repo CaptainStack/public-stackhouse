@@ -12,7 +12,7 @@ describe('corresponding_bracket_index', function() {
   let no_braces             = 'abcdefg'; 
   //                           0123456
 
-  describe('valid source code', function() {
+  describe('valid_source_code', function() {
     it('should return 6 when the caret index is 0', function() {
       chai.assert.equal(corresponding_bracket_index(valid_source_code, 0), 6);
     });
@@ -30,7 +30,7 @@ describe('corresponding_bracket_index', function() {
     });
   });
 
-  describe('invalid source code', () => {
+  describe('invalid_source_code', () => {
     it('should throw "invalid brackets in source code" on improper nesting', function() {
       chai.assert.throws(() => { corresponding_bracket_index(improper_nesting, 2) }, Error, 'Invalid brackets in source code.');
     });
