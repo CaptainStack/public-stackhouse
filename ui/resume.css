@@ -1,8 +1,13 @@
 #resume {
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
+  border: 1px solid lightgrey;
 }
 #resume img {
   width: 100%;
+}
+#resume img:hover {
+  opacity: 0.65;
 }
