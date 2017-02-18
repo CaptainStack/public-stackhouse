@@ -6,13 +6,22 @@
 
     <!-- Stylesheets -->
     <link href="lib/prism/prism.css" rel="stylesheet" />
-    <link href="lib/mocha/mocha.css" rel="stylesheet" />
     <link href="ui/style.css" rel="stylesheet" />
+    <link href="lib/mocha/mocha.css" rel="stylesheet" />
   </head>
   
   <body>
     <header>
-      <h1><a href='index.html'>Andre Stack&lt;<span class='accent'>House</span>&gt;</a> | <a href='resume.html'>Resume</a> | <a href='bio.html'>Bio</a> | <a href='https://medium.com/@CaptainStack/latest'>Blog</a></h1>
+      <div id='header-content'>
+        <a href='index.html'>Stack&lt;<span class='accent'>House</span>&gt;</a>
+        <nav>
+          <ul>
+            [<li><a href='resume.html'>Resume</a></li>,
+            <li><a href='bio.html'>Bio</a></li>,
+            <li><a href='https://medium.com/@CaptainStack/latest'>Blog</a></li>]
+          <ul>
+        </nav>
+      </div>
       <hr>
     </header>
     <h2>Public interview prep site (UNDER CONSTRUCTION)</h2>
@@ -26,13 +35,15 @@
       </select>
       <button>Run Mocha Tests &#9658;</button>
     </div>
-    <div id="code-container">
-      <h3>Code container</h3>
-      <pre class="line-numbers"><code class="language-javascript">Solutions will be displayed here. Problems will be specified in comments.</code></pre>
-    </div>
-    <div id="test-output">
-      <h3>Mocha Test Output</h3>
-      <div id="mocha"></div>
+      <div id='main-content'>
+      <div id="code-container">
+        <h3>Code container</h3>
+        <pre class="line-numbers"><code class="language-javascript">Solutions will be displayed here. Problems will be specified in comments.</code></pre>
+      </div>
+      <div id="test-output">
+        <h3>Mocha Test Output</h3>
+        <div id="mocha"></div>
+      </div>
     </div>
 
     <!-- Libraries -->

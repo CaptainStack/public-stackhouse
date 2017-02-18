@@ -6,7 +6,7 @@ body {
 
 #mocha {
   font: 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 60px 50px;
+  margin: 0px;
 }
 
 #mocha ul,
@@ -26,7 +26,7 @@ body {
 
 #mocha h1 {
   margin-top: 15px;
-  font-size: 1em;
+  font-size: 12pt;
   font-weight: 200;
 }
 
@@ -215,7 +215,7 @@ body {
 
 #mocha-stats {
   position: fixed;
-  top: 15px;
+  bottom: 15px;
   right: 10px;
   font-size: 12px;
   margin: 0;

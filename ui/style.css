@@ -1,9 +1,30 @@
 body {
   padding: 0 35px 0 35px;
 }
-h1 {
+
+#header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   font-family: "Courier New", monospace;
+  font-size: 2em;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
 p, h2, h3 {
   font-family: sans-serif;
 }
@@ -13,23 +34,22 @@ p, h2, h3 {
 .keyword {
   color: #C586C0;
 }
+
+#main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
 #code-container {
-  float: left;
   width: 60%;
+  min-width: 908px;
 }
 #test-output {
   margin-left: 10px;
-  float: left;
+  min-width: 575px;
   width: 38%;
 }
 #test-output h3 {
   margin-left: 10pt;
-}
-#mocha {
-  margin: 0px;
-}
-#mocha h1 {
-  font-size: 12pt;
 }
 a {
   text-decoration: none;
