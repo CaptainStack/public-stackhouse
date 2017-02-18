@@ -41,11 +41,13 @@ p, h2, h3 {
 }
 #code-container {
   min-width: 60%;
+  width: 60%;
   flex-grow: 1;
 }
 #test-output {
   margin-left: 10px;
   min-width: 38%;
+  width: 38%;
   flex-grow: 1;
 }
 #test-output h3 {
