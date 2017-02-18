@@ -6,5 +6,11 @@ describe('check_permutation_test', function() {
     it('should return true for equivalent strings', function() {
       chai.assert.equal(check_permutation('equivalent', 'equivalent'), true);
     });
+    it('should return false for "noon" and "moon"', function() {
+      chai.assert.equal(check_permutation('noon', 'moon'), false);
+    });
+    it('should return true for two empty strings', function() {
+      chai.assert.equal(check_permutation('', ''), true);
+    });
   });
 });
