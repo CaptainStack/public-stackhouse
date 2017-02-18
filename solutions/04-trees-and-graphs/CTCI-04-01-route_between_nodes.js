@@ -1,4 +1,7 @@
 function route_between_nodes(start, destination) {
+  // Cracking the Coding Interview problem 4.1
+  // Given a directed graph, design an algorithm to find out whether this is a route between two nodes.
+
   let route_between_nodes_helper = function (current, destination) {
     if (current === destination) {
       return true;
