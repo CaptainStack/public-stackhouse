@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Watch for clicks on the 'run mocha tests' button and run them when clicked.
   document.querySelector('button').onclick = () => {
+    mocha.setup('bdd');
     mocha.run();
   };
 }, false );

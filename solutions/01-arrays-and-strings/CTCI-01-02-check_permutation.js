@@ -6,7 +6,7 @@ function check_permutation(word1, word2) {
   for (character of word1) {
     let quantity = character_map.get(character);
     if (quantity) {
-      character_map.add(add, quantity + 1);
+      character_map.set(character, quantity + 1);
     } else {
       character_map.set(character, 1);
     }
