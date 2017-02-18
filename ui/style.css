@@ -40,13 +40,13 @@ p, h2, h3 {
   flex-wrap: wrap;
 }
 #code-container {
-  min-width: 60%;
+  min-width: 918px;
   width: 60%;
   flex-grow: 1;
 }
 #test-output {
   margin-left: 10px;
-  min-width: 38%;
+  min-width: 585px;
   width: 38%;
   flex-grow: 1;
 }
