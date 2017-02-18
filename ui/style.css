@@ -29,7 +29,7 @@ p, h2, h3 {
   font-family: sans-serif;
 }
 .accent {
-  color: #A2E0C1;
+  color: #4EC9B0;
 }
 .keyword {
   color: #C586C0;
@@ -58,7 +58,7 @@ a {
   color: black;
 }
 a:hover {
-  color: #A2E0C1;
+  color: #4EC9B0;
 }
 #resume {
   width: 80%;
