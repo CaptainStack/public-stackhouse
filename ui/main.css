@@ -29,6 +29,12 @@ p, h2, h3 {
 #test-output h3 {
   margin-left: 10pt;
 }
+#employment-status {
+  padding: 5px;
+  color: white;
+  background-color: #4EC9B0;
+  border-radius: 10px;
+}
 a {
   text-decoration: none;
   color: black;
