@@ -1,6 +1,3 @@
-let note = "I have your daughter";
-let string_repo = "I have your daughter and her birthday present";
-
 function ransom_note(note, string_repo) {
   // Given a string, a "ransom note," and a second string, a "collection of newspapers/magazines," 
   // write a function that returns true if the second string contains the correct collection of 

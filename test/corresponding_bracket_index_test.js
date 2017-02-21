@@ -1,17 +1,6 @@
 mocha.setup('bdd');
 
 describe('corresponding_bracket_index_test', function() {
-  let valid_source_code     = '[[abc]][({Andre Stackhouse})]0';
-  //                           012345678901234567890123456789
-  let improper_nesting      = '12([)]444';
-  //                           012345678
-  let wrong_closing_bracket = '[a](3){#$}[)';
-  //                           012345678901
-  let unclosed_bracket      = '[][(){}';
-  //                           0123456
-  let no_braces             = 'abcdefg'; 
-  //                           0123456
-
   describe('valid_source_code', function() {
     it('should return 6 when the caret index is 0', function() {
       chai.assert.equal(corresponding_bracket_index(valid_source_code, 0), 6);

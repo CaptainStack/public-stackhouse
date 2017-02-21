@@ -1,6 +1,3 @@
-let A = [1, 1, 3, 7, 8, 9, null, null, null, null, null, null];
-let B = [2, 3, 5, 5, 6, 10];
-
 function sorted_merge(A, B) {
   // Cracking the Coding Interview problem 10.1
   // You are given two sorted arrays, A and B, where A has a large enough buffer at the end to hold B.

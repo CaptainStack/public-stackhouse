@@ -1,7 +1,3 @@
-let basic_list = [1, 2, 3, 4, 5, 6, 7, 8];
-let moderate_list = [3, 4, 5, 7, 9, 14, 15, 16, 17, 18, 20];
-let complex_list = [-3, -1, 0, 1, 2, 4, 99];
-
 function minimal_tree(elements) {
   // Cracking the Coding Interview problem 4.2
   // Given a sorted (increasing order) array with unique integer elements, write an algorithm to create
