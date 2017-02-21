@@ -41,3 +41,15 @@ const Promise = {
     }
   }
 }
+
+const getCookie = numCookies => {
+  const def = Promise.defer();
+  setTimeout(() => {
+    if (numCookies > 0) {
+      def.resolve(`You have ${numCookies} cookie(s)`);
+    } else {
+      def.reject('You have no cookies.');
+    }
+  }, 1000);
+  return def.promise;
+}
