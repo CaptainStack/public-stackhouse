@@ -20,3 +20,10 @@ nav ul {
 nav ul li {
   display: inline-block;
 }
+
+#home-link:hover {
+  color: black;
+}
+#home-link:hover span {
+  color: #4EC9B0;
+}
