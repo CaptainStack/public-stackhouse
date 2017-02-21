@@ -1,6 +1,6 @@
 function validate_brackets(string) {
-  // Given a string that represents source code, write a function that checks if the braces are properly
-  // paired and nested.
+  // Given a string that represents source code, write a function that checks if the braces are 
+  // properly paired and nested.
   // E.g. [({aa})] <- valid [(aa]) <- invalid [aa} <- invalid [hello <- invalid
   
   let brackets = [];
