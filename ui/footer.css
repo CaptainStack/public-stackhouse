@@ -1,0 +1,19 @@
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#footer-content div p {
+  margin: 0;
+  padding: 0px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #767676;
+}
+#footer-content div a p:hover {
+  color: #4EC9B0;
+}
