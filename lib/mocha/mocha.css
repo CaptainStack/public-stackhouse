@@ -212,7 +212,7 @@
 
 #mocha-stats {
   position: fixed;
-  bottom: 15px;
+  bottom: 0px;
   right: 10px;
   font-size: 12px;
   margin: 0;
