@@ -21,3 +21,6 @@ footer {
 #footer-content img:hover {
   opacity: 0.8;
 }
+footer img {
+  width: 25px;
+}
