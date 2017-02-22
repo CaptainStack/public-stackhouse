@@ -28,47 +28,45 @@
     </header>
     <h2>Employment Status: <span id='employment-status'>Available</span></h2>
     <p>JavaScript files are loaded in this page and can be run from the browser console. Requires a brower with ES2015 support.</p>
-    <div>
-      <select>
-        <option disabled selected>Ask me a coding question</option>
-        <optgroup label='Arrays & Strings'>
-          <option>check_permutation</option>
-          <option>urlify</option>
-          <option>print_combinations</option>
-          <option>validate_brackets</option>
-          <option>corresponding_bracket_index</option>
-          <option>ransom_note</option>
-        </optgroup>
-        <optgroup label='Linked Lists'>
-          <option>remove_dupes</option>
-          <option>return_kth_to_last</option>
-          <option>delete_middle_node</option>
-        </optgroup>
-        <optgroup label='Stacks & Queues'></optgroup>
-        <optgroup label='Trees & Graphs'>
-          <option>route_between_nodes</option>
-          <option>minimal_tree</option>
-          <option>check_balanced</option>
-          <option>is_binary_search_tree</option>
-        </optgroup>
-        <optgroup label='Recursion & Dynamic Programming'>
-          <option>triple_step</option>
-        </optgroup>
-        <optgroup label='Sorting & Searching'>
-          <option>sorted_merge</option>
-        </optgroup>
-      </select>
-      <button id='all-tests-button' title='Click to run all Mocha tests'>Run All Mocha Tests &#9658;</button>
-    </div>
-      <div id='main-content'>
+    <div id='main-content'>
       <div id="code-container">
         <h3>Whiteboard</h3>
+        <select>
+          <option disabled selected>Ask me a coding question</option>
+          <optgroup label='Arrays & Strings'>
+            <option>check_permutation</option>
+            <option>urlify</option>
+            <option>print_combinations</option>
+            <option>validate_brackets</option>
+            <option>corresponding_bracket_index</option>
+            <option>ransom_note</option>
+          </optgroup>
+          <optgroup label='Linked Lists'>
+            <option>remove_dupes</option>
+            <option>return_kth_to_last</option>
+            <option>delete_middle_node</option>
+          </optgroup>
+          <optgroup label='Stacks & Queues'></optgroup>
+          <optgroup label='Trees & Graphs'>
+            <option>route_between_nodes</option>
+            <option>minimal_tree</option>
+            <option>check_balanced</option>
+            <option>is_binary_search_tree</option>
+          </optgroup>
+          <optgroup label='Recursion & Dynamic Programming'>
+            <option>triple_step</option>
+          </optgroup>
+          <optgroup label='Sorting & Searching'>
+            <option>sorted_merge</option>
+          </optgroup>
+        </select>
         <pre class="line-numbers"><code class="language-javascript">solutions_will_be_displayed_here(input) {
   // Problems will be specified in comments.
 }</code></pre>
       </div>
       <div id="test-output">
         <h3>Mocha Test Output</h3>
+        <button id='all-tests-button' title='Click to run all Mocha tests'>Run Tests &#9658;</button>
         <div id="mocha"></div>
       </div>
     </div>

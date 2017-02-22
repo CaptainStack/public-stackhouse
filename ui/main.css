@@ -20,14 +20,16 @@ p, h2, h3 {
   width: 60%;
   flex-grow: 1;
 }
+#code-container h3, #test-output h3 {
+  display: inline-block;
+  margin-right: 10px;
+}
 #test-output {
   margin-left: 10px;
-  min-width: 585px;
+  min-width: 575px;
   width: 38%;
   flex-grow: 1;
-}
-#test-output h3 {
-  margin-left: 10pt;
+  margin-left: 15px;
 }
 #employment-status {
   padding: 5px;
