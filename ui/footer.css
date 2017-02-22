@@ -24,3 +24,8 @@ footer {
 footer img {
   width: 25px;
 }
+#footer-center {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}

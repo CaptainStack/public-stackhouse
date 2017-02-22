@@ -1,5 +1,3 @@
-mocha.setup('bdd');
-
 describe('corresponding_bracket_index_test', function() {
   describe('valid_source_code', function() {
     it('should return 6 when the caret index is 0', function() {
