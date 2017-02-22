@@ -18,3 +18,6 @@ footer {
 #footer-content div a p:hover {
   color: #4EC9B0;
 }
+#footer-content img:hover {
+  opacity: 0.8;
+}
