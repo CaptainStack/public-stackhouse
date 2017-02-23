@@ -1,0 +1,29 @@
+#main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+#code-container {
+  min-width: 900px;
+  width: 60%;
+  flex-grow: 1;
+}
+#code-container h3, #test-output h3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+#test-output {
+  margin-left: 10px;
+  min-width: 575px;
+  width: 38%;
+  flex-grow: 1;
+  margin-left: 15px;
+}
+#employment-status {
+  padding: 5px;
+  color: white;
+  background-color: #4EC9B0;
+  border-radius: 10px;
+}
+pre {
+  font-size: 11pt;
+}
