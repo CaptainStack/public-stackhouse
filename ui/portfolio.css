@@ -1,0 +1,24 @@
+#portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#portfolio img {
+  width: 100%;
+}
+.portfolio-item {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width:300px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+a:hover img {
+  opacity: 0.5;
+}
+.portfolio-item h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
