@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  font-size: 1.2em;
 }
 #left-column {
   width: 30em;
