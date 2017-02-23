@@ -9,16 +9,16 @@
 }
 .portfolio-item {
   border: 1px solid lightgrey;
-  border-radius: 10px;
-  width:300px;
-  padding: 20px;
+  border-radius: 0.8em;
+  width: 18em;
+  padding: 1.2em;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.2em;
 }
 a:hover img {
   opacity: 0.5;
 }
 .portfolio-item h3 {
-  margin: 0px;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 1em;
 }

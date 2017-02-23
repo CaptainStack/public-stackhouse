@@ -2,12 +2,12 @@
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 #left-column {
-  width: 600px;
-  margin-right: 50px;
+  width: 30em;
+  margin-right: 3em;
 }
 #right-column img {
-  width: 360px;
+  width: 20em;
 }

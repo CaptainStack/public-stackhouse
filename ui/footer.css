@@ -4,15 +4,14 @@
 }
 footer {
   border-top: 1px solid #eee;
-  margin-top: 40px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 #footer-content div p {
   margin: 0;
-  padding: 0px;
-  font-size: 12px;
-  line-height: 1.5;
+  padding: 0;
+  font-size: 0.8em;
   color: #767676;
 }
 #footer-content div a p:hover {
@@ -22,10 +21,10 @@ footer {
   opacity: 0.8;
 }
 footer img {
-  width: 25px;
+  width: 1.5em;
 }
 #footer-center {
   display: flex;
   justify-content: space-between;
-  width: 100px;
+  width: 6em;
 }
