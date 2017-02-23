@@ -10,17 +10,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 nav ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
-
 nav ul li {
   display: inline-block;
 }
-
 #home-link:hover {
   color: black;
 }
