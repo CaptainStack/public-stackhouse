@@ -11,3 +11,11 @@
 #right-column img {
   width: 20em;
 }
+a p {
+  margin: 0;
+  display: inline;
+}
+ul {
+  margin: 0;
+  padding-left: 1em;
+}
