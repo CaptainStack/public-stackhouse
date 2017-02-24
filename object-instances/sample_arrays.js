@@ -6,3 +6,8 @@ let A = [1, 1, 3, 7, 8, 9, null, null, null, null, null, null];
 let B = [2, 3, 5, 5, 6, 10];
 
 let character_array = 'Mr John Smith    '.split('');
+
+// Stacks
+let mixed_order = [1, 6, 3, 4, 5, 2];
+let sorted_order = [10, 9, 8, 7, 6, 5];
+let reverse_sorted = [90, 91, 92, 93, 94, 95];
