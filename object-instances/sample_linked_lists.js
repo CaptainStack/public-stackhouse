@@ -1,25 +1,45 @@
-let list_with_duplicates                      = create_list_node(1);
-list_with_duplicates.next                     = create_list_node(1);
-list_with_duplicates.next.next                = create_list_node(2);
-list_with_duplicates.next.next.next           = create_list_node(2);
-list_with_duplicates.next.next.next.next      = create_list_node(3);
-list_with_duplicates.next.next.next.next.next = create_list_node(3);
+let list_with_duplicates = ListNode(1);
+list_with_duplicates.appendTail(ListNode(1));
+list_with_duplicates.appendTail(ListNode(2));
+list_with_duplicates.appendTail(ListNode(2));
+list_with_duplicates.appendTail(ListNode(3));
+list_with_duplicates.appendTail(ListNode(3));
 
-let single_node_list = create_list_node(0);
+let single_ListNode_list = ListNode(0);
 
-let all_duplicates = create_list_node(7);
-all_duplicates.next = create_list_node(7);
-all_duplicates.next.next = create_list_node(7);
-all_duplicates.next.next.next = create_list_node(7);
-all_duplicates.next.next.next.next = create_list_node(7);
+let all_duplicates = ListNode(7);
+all_duplicates.appendTail(ListNode(7));
+all_duplicates.appendTail(ListNode(7));
+all_duplicates.appendTail(ListNode(7));
+all_duplicates.appendTail(ListNode(7));
 
-let ten_node_list = create_list_node(0);
-ten_node_list.next = create_list_node(1);
-ten_node_list.next.next = create_list_node(2);
-ten_node_list.next.next.next = create_list_node(3);
-ten_node_list.next.next.next.next = create_list_node(4);
-ten_node_list.next.next.next.next.next = create_list_node(5);
-ten_node_list.next.next.next.next.next.next = create_list_node(6);
-ten_node_list.next.next.next.next.next.next.next = create_list_node(7);
-ten_node_list.next.next.next.next.next.next.next.next = create_list_node(8);
-ten_node_list.next.next.next.next.next.next.next.next.next = create_list_node(9);
+let ten_ListNode_list = ListNode(0);
+ten_ListNode_list.appendTail(ListNode(1));
+ten_ListNode_list.appendTail(ListNode(2));
+ten_ListNode_list.appendTail(ListNode(3));
+ten_ListNode_list.appendTail(ListNode(4));
+ten_ListNode_list.appendTail(ListNode(5));
+ten_ListNode_list.appendTail(ListNode(6));
+ten_ListNode_list.appendTail(ListNode(7));
+ten_ListNode_list.appendTail(ListNode(8));
+ten_ListNode_list.appendTail(ListNode(9));
+
+let unordered_list = ListNode(5);
+unordered_list.appendTail(ListNode(10));
+unordered_list.appendTail(ListNode(2));
+unordered_list.appendTail(ListNode(6));
+unordered_list.appendTail(ListNode(3));
+unordered_list.appendTail(ListNode(3));
+unordered_list.appendTail(ListNode(7));
+
+let reverse_ordered_list = ListNode(10);
+reverse_ordered_list.appendTail(ListNode(9));
+reverse_ordered_list.appendTail(ListNode(8));
+reverse_ordered_list.appendTail(ListNode(7));
+reverse_ordered_list.appendTail(ListNode(6));
+reverse_ordered_list.appendTail(ListNode(5));
+reverse_ordered_list.appendTail(ListNode(4));
+reverse_ordered_list.appendTail(ListNode(3));
+reverse_ordered_list.appendTail(ListNode(2));
+reverse_ordered_list.appendTail(ListNode(1));
+reverse_ordered_list.appendTail(ListNode(0));
