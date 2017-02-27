@@ -1,17 +1,17 @@
-describe('string_compression_test', function() {
-  describe('compressable_strings', function() {
-    it('should return "a3b1c5a3" for "aaabcccccaaa"', function() {
+describe('string_compression_test', () => {
+  describe('compressable_strings', () => {
+    it('should return "a3b1c5a3" for "aaabcccccaaa"', () => {
       chai.assert.deepEqual(string_compression('aaabcccccaaa'), 'a3b1c5a3');
     });
-    it('should return "r2e2d3i2t2" for "rreedddiitt"', function() {
+    it('should return "r2e2d3i2t2" for "rreedddiitt"', () => {
       chai.assert.deepEqual(string_compression('rreedddiitt'), 'r2e2d3i2t2');
     });
   });
-  describe('uncompressable_strings', function() {
-    it('should return "andre" for "andre"', function() {
+  describe('uncompressable_strings', () => {
+    it('should return "andre" for "andre"', () => {
       chai.assert.deepEqual(string_compression('andre'), 'andre');
     });
-    it('should return "" for ""', function() {
+    it('should return "" for ""', () => {
       chai.assert.deepEqual(string_compression(''), '');
     });
   });
