@@ -1,5 +1,5 @@
 // Tree Node factory function
-function create_tree_node (data) {
+const TreeNode = (data) => {
   return {
     data: data,
     left: null,

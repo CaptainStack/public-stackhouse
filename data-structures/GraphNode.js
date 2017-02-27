@@ -1,5 +1,5 @@
 // Graph Node factory function
-function create_graph_node (data) {
+const GraphNode = (data) => {
   return {
     data: data,
     visited: false,
