@@ -1,5 +1,5 @@
 // Linked List Node factory function
-function ListNode(data) {
+const ListNode = (data) => {
   return {
     data: data,
     next: null,
