@@ -4,7 +4,7 @@ function corresponding_bracket_index(source_code, caret_index) {
   // parenthesis, return the index of the corresponding brace.
 
   // Throw error if caret_index is not pointing to a bracket
-  if ('(){}[]'.indexOf(source_code[caret_index]) === -1) {
+  if (!'(){}[]'.includes(source_code[caret_index])) {
     throw new Error('Invalid caret index. Caret must point to a bracket.');
   }
 
