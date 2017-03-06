@@ -11,8 +11,8 @@ function triple_step(n) {
     } else {
       if (!cache_table[current_step]) {
         cache_table[current_step] = triple_step_helper(current_step + 1, total_steps) +
-                             triple_step_helper(current_step + 2, total_steps) +
-                             triple_step_helper(current_step + 3, total_steps);
+                                    triple_step_helper(current_step + 2, total_steps) +
+                                    triple_step_helper(current_step + 3, total_steps);
         return cache_table[current_step];
       } else {
         return cache_table[current_step];
