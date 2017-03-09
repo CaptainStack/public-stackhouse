@@ -5,11 +5,7 @@ function check_permutation(word1, word2) {
   let character_map = new Map();
   for (character of word1) {
     let quantity = character_map.get(character);
-    if (quantity) {
-      character_map.set(character, quantity + 1);
-    } else {
-      character_map.set(character, 1);
-    }
+    character_map.set(character, quantity + 1 || 1);
   }
   for (character of word2) {
     let quantity = character_map.get(character);
