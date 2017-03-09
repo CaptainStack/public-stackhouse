@@ -3,7 +3,8 @@ function recursive_multiply(a, b) {
   // Write a recursive function to multiply two positive integers without using the * operator. You can
   // use addition, subtraction, and bit-shifting, but you should minimie the number of those operators.
 
-  // Using the larger number for the addition will mean fewer recursive calls
+  // Using the larger number for the addition will mean fewer recursive calls.
+  // E.g. (3 * 2) === (2 + 2 + 2) === (3 + 3) <-- Fewer operations
   let [factor_1, factor_2] = a > b ?  [a, b] : [b, a];
   let recursive_multiply_helper = (factor_2, total) => {
     if (factor_2 === 0) {
