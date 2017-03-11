@@ -22,5 +22,5 @@ function check_balanced(root) {
     return left_level > right_level ? left_level + 1 : right_level + 1;
   }
 
-  return tree_is_balanced_helper(root) != -1;
+  return tree_is_balanced_helper(root) !== -1;
 }
