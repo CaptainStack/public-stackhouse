@@ -8,12 +8,11 @@ function delete_middle_node(list, node) {
 
   let previous = list;
   let current = list.next;
-  let deleted = false;
 
-  while (!deleted && current) {
+  while (current) {
     if (node === current) {
       previous.next = current.next;
-      deleted = true;
+      break;
     } else {
       previous = current;
       current = current.next;
