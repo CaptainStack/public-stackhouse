@@ -2,7 +2,6 @@
 const GraphNode = (data) => {
   return {
     data: data,
-    visited: false,
     children: []
   }
 }
