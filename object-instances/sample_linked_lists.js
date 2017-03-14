@@ -59,3 +59,11 @@ addend_3.appendTail(ListNode(1));
 
 let addend_4 = ListNode(7);
 addend_4.appendTail(ListNode(3));
+
+let palindrome_list = ListNode('r');
+palindrome_list.appendTail(ListNode('a'));
+palindrome_list.appendTail(ListNode('c'));
+palindrome_list.appendTail(ListNode('e'));
+palindrome_list.appendTail(ListNode('c'));
+palindrome_list.appendTail(ListNode('a'));
+palindrome_list.appendTail(ListNode('r'));
