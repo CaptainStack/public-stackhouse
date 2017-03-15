@@ -12,3 +12,7 @@
 #resume img:hover {
   opacity: 0.55;
 }
+#download-links {
+  margin-top: 1em;
+  text-align: center;
+}
