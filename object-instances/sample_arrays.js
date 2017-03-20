@@ -11,3 +11,7 @@ let character_array = 'Mr John Smith    '.split('');
 let mixed_order = [1, 6, 3, 4, 5, 2];
 let sorted_order = [10, 9, 8, 7, 6, 5];
 let reverse_sorted = [90, 91, 92, 93, 94, 95];
+
+// Matricies
+let four_by_four = [[0, 0, 0, 0], [1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3]];
+let three_by_three = [[9, 2, 1], [8, 4, 2], [7, 6, 3]];
