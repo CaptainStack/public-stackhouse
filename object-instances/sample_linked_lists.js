@@ -67,3 +67,17 @@ palindrome_list.appendTail(ListNode('e'));
 palindrome_list.appendTail(ListNode('c'));
 palindrome_list.appendTail(ListNode('a'));
 palindrome_list.appendTail(ListNode('r'));
+
+let intersecting_list_1 = ListNode('a');
+intersecting_list_1.appendTail(ListNode('b'));
+let c_link = ListNode('c');
+intersecting_list_1.appendTail(c_link);
+intersecting_list_1.appendTail(ListNode('d'));
+intersecting_list_1.appendTail(ListNode('e'));
+
+let intersecting_list_2 = ListNode(1);
+intersecting_list_2.appendTail(ListNode(2));
+intersecting_list_2.appendTail(ListNode(3));
+intersecting_list_2.appendTail(ListNode(4));
+intersecting_list_2.appendTail(ListNode(5));
+intersecting_list_2.appendTail(c_link);
