@@ -4,19 +4,19 @@ function list_of_depths(tree) {
   // at each depth (e.g., if you have a tree with depth D, you'll have D linked lists).
   
   let lists = [];
-  let lists_of_depths_helper = (branch, depth) => {
+  let helper = (branch, depth) => {
     if (lists[depth]) {
       lists[depth].appendTail(ListNode(branch.data));
     } else {
       lists[depth] = ListNode(branch.data);
     }
     if (branch.left) {
-      lists_of_depths_helper(branch.left, depth + 1);
+      helper(branch.left, depth + 1);
     }
     if (branch.right) {
-      lists_of_depths_helper(branch.right, depth + 1);
+      helper(branch.right, depth + 1);
     }
   }
-  lists_of_depths_helper(tree, 0);
+  helper(tree, 0);
   return lists;
 }

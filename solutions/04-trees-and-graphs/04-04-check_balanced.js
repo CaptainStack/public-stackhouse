@@ -4,15 +4,15 @@ function check_balanced(root) {
   // balanced tree is defined to be a tree such that the heights of the two subtrees of any node never
   // differ by more than one.
   
-  let check_balanced_helper = (node) => {
+  let helper = (node) => {
     if (!node) {
       return 0;
     }
-    let left_level = tree_is_balanced_helper(node.left);
+    let left_level = helper(node.left);
     if (left_level === -1) {
       return -1;
     }
-    let right_level = tree_is_balanced_helper(node.right);
+    let right_level = helper(node.right);
     if (right_level === -1) {
       return -1;
     }
@@ -22,5 +22,5 @@ function check_balanced(root) {
     return left_level > right_level ? left_level + 1 : right_level + 1;
   }
 
-  return tree_is_balanced_helper(root) !== -1;
+  return helper(root) !== -1;
 }
