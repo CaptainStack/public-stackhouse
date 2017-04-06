@@ -18,6 +18,7 @@ a {
 a:hover {
   color: #4EC9B0;
 }
+/* These styles are duplicated here from Prism.css so the formatting loads more quickly. */
 pre {
   background-color: #272822;
   padding: 1em;
