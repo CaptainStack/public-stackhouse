@@ -25,4 +25,3 @@ function search_in_rotated_array(list, target) {
 
   return search_index;
 }
-
