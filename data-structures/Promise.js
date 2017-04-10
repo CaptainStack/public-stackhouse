@@ -53,3 +53,7 @@ const getCookie = numCookies => {
   }, 1000);
   return def.promise;
 }
+
+// getCookie(4)
+//   .then(cookie => console.log(cookie))
+//   .catch(error => console.log(error));
