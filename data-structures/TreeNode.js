@@ -43,6 +43,21 @@ const TreeNode = (data) => {
         }
       }
       console.log(feedback_string);
+    },
+    depthFirstSearch: function(target_node) {
+      if (this === target_node) {
+        return this;
+      } else {
+        let left_search = this.left ? this.left.depthFirstSearch(target_node) : -1;
+        let right_search = this.right ? this.right.depthFirstSearch(target_node) : -1;
+        if (left_search !== -1) {
+          return left_search;
+        } else if (right_search !== -1) {
+          return right_search;
+        } else {
+          return -1;
+        }
+      }
     }
   }
 }
