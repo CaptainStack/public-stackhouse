@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   problem_select.addEventListener('change', () => {
     selected_option = problem_select[problem_select.selectedIndex].innerText;
     let fn = window[selected_option];
-    document.querySelector('code').innerText = fn.toString();
+    document.querySelector('code').textContent = fn.toString();
     Prism.highlightAll();
   });
 
