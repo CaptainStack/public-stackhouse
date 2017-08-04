@@ -7,7 +7,7 @@ function one_away(s1, s2) {
   // pale,  ple  -> true
   // pales, pale -> true
   // pale,  bale -> true
-  // pale,  bake -> true
+  // pale,  bake -> false
 
   s1_length = s1.length;
   s2_length = s2.length;
