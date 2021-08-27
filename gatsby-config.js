@@ -1,7 +1,8 @@
 module.exports = {
+  // In your gatsby-config.js
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "My Gatsby Site",
+    // If you didn't use the resolveSiteUrl option this needs to be set
+    siteUrl: `https://www.example.com`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-sitemap`]
 };
